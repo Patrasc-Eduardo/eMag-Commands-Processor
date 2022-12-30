@@ -47,8 +47,8 @@ do
 	echo ""
 	echo "======== Testul ${i} ========"
 	echo ""
-	# rm -rf orders_out.txt
-	# rm -rf order_products_out.txt
+#	 rm -rf orders_out.txt
+#	 rm -rf order_products_out.txt
 
     java Tema2 input/input_${i} ${no_threads[$i]} &> /dev/null
 
